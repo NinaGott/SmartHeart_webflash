@@ -1,6 +1,6 @@
 {
   "name": "SmartHeart",
-  "version": "0.8",
+  "version": "1.0",
   "new_install_prompt_erase": false,
   "new_install_improv_wait_time": 0,
   "builds": [
@@ -8,7 +8,7 @@
       "chipFamily": "ESP32",
       "parts": [
         {
-          "path": "smartheart-0.8-esp32.bin",
+          "path": "smartheart-1.0-esp32.bin",
           "offset": 0
         }
       ]

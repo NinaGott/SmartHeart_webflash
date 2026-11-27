@@ -41,13 +41,13 @@ Join **SmartHeart Setup**, password **remindi2387**. Open the standard WiFiManag
 
    `--pio-home` can override the default `~/.platformio`. The script checks the supplied inputs against the current PlatformIO build and verifies the partition layout and every merged image region. Its scratch files stay in ignored `.helper/`.
 
-5. Review and publish the release files to this repository. In the Cloudflare site's `manifest.json`, set the generated version and use an immutable raw GitHub URL for the image:
+5. Review and publish the release files to this repository. In the Cloudflare site's `manifest.json`, set the generated version and use the short raw GitHub URL under `main` for the image:
 
    ```text
-   https://raw.githubusercontent.com/NinaGott/SmartHeart_webflash/<FULL_COMMIT_SHA>/smartheart-<version>-esp32.bin
+   https://raw.githubusercontent.com/NinaGott/SmartHeart_webflash/main/smartheart-<version>-esp32.bin
    ```
 
-6. Upload the updated `webflasher_SH` directory to Cloudflare Pages. Referencing a commit ensures a published installer always fetches its matching firmware, even when `main` changes later.
+6. Upload the updated `webflasher_SH` directory to Cloudflare Pages. Keep version-specific image filenames and update the website manifest for each release.
 
 ## References
 

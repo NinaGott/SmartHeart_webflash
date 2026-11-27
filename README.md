@@ -1,6 +1,6 @@
 # SmartHeart firmware for browser installation
 
-Public firmware artifacts for the **classic ESP32 D1 Mini, 4 MB flash**. Firmware source: [NinaGott/SmartHeart](https://github.com/NinaGott/SmartHeart).
+Public firmware artifacts for the **classic ESP32 D1 Mini, 4 MB flash**.
 
 The browser installer uses ESP Web Tools. Its `manifest.json` describes a complete, merged image installed at **offset 0**. The firmware version is generated from the firmware project's `src/version.h`.
 
@@ -52,4 +52,3 @@ Join **SmartHeart Setup**, password **remindi2387**. Open the standard WiFiManag
 ## References
 
 - [ESP Web Tools manifest and ESP32 merge instructions](https://esphome.github.io/esp-web-tools/)
-- [SmartHeart firmware source](https://github.com/NinaGott/SmartHeart)
